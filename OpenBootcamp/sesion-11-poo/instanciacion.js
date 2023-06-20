@@ -2,7 +2,6 @@ class Persona {
     // Private -> #
     #nombre
     #edad
-    #obtenEdad
 
     // Protected -> _
     _isDeveloper = true
@@ -14,12 +13,16 @@ class Persona {
         console.log(`Hola, mi nombre es ${this.#nombre}, tengo ${this.#edad} años.`)
     }
 
-    obtenNombre() {
+    obtenNombre() { // Função getter
         return this.#nombre
     }
 
-    obtenEdad() {
+    getEdad() { // Função getter
         return this.#edad
+    }
+
+    setEdad(nuevaedad) { // Função setter
+        this.#edad = nuevaedad
     }
 }
 
@@ -32,5 +35,15 @@ console.log(persona.obtenNombre())
 
 persona.nombre = "Alexandre"
 console.log(persona.obtenNombre())
-console.log(persona.obtenEdad())
-console.log(persona._isDeveloper)
+//console.log(persona.obtenEdad())
+//console.log(persona._isDeveloper)
+
+// Getter
+const edad = persona.getEdad()
+console.log(edad)
+
+// Setter
+persona.setEdad(11)
+console.log(persona.getEdad())
+
+console.log(persona.obtenNombre())

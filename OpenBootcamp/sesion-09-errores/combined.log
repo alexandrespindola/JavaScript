@@ -12,3 +12,15 @@
 {"level":"debug","message":"Esta é uma mensagem de debug"}
 {"level":"warn","message":"Mensagem de advertência"}
 {"level":"error","message":"Este é um erro 2"}
+{"level":"info","message":"Mensagem informativa"}
+{"level":"debug","message":"Esta é uma mensagem de debug"}
+{"level":"warn","message":"Mensagem de advertência"}
+{"level":"error","message":"Este é um erro 2"}
+{"level":"info","message":"Mensagem informativa"}
+{"level":"debug","message":"Esta é uma mensagem de debug"}
+{"level":"warn","message":"Mensagem de advertência"}
+{"level":"error","message":"Este é um erro 2"}
+{"level":"info","message":"Mensagem informativa"}
+{"level":"debug","message":"Esta é uma mensagem de debug"}
+{"level":"warn","message":"Mensagem de advertência"}
+{"level":"error","message":"Este é um erro 2"}
